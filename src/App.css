@@ -1,0 +1,21 @@
+.App {
+  width: 98vw;
+  height: 98vh;
+  display: grid;
+  grid-template-rows: 100px 1fr;
+  padding: 8px;
+  gap: 8px;
+}
+
+#App_header { 
+  grid-row: 1 / 2;
+  border-radius: 10px;
+  background-color: beige;
+  display: flex;
+  gap: 8px;
+}
+
+#App_container {
+  grid-row: 2 / 3;
+  background-color: bisque;
+}
